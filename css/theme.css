@@ -114,7 +114,7 @@ body {
   line-height: 1.625em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Lora', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
   color: #767676;
   font-weight: 400;
 }
@@ -168,12 +168,16 @@ h6,
   line-height: 2.6em;
 }
 .lead_big {
-  font-size: 1.5375em;
-  line-height: 1.69565217em;
+  font-size: 3.7375em;
+  line-height: 1.3em;
+  margin-bottom: 3.5em !important;
+  color:black !important;
+  font-weight: bold;
 }
 .lead_small {
-  font-size: 1.0375em;
+  font-size: 1.8375em;
   line-height: 1.69565217em;
+
 }
 @media all and (max-width: 767px) {
   h1,
@@ -2368,7 +2372,7 @@ section.bg--dark .slider.slider--controlsoutside[data-paging="true"] .owl-theme 
 /**! 24. Parallax **/
 .parallax > .background-image-holder,
 .parallax .slides li > .background-image-holder {
-  height: 100vh;
+  height: 90vh;
   top: -50vh;
   transition: opacity 0.3s ease !important;
   -webkit-transition: opacity 0.3s ease !important;
@@ -3047,7 +3051,7 @@ form[action*='list-manage.com'] .small-meta {
 section,
 footer {
   padding-top: 6.5em;
-  padding-bottom: 8.125em;
+  padding-bottom: 3em;
 }
 section.space--xxs,
 footer.space--xxs {
@@ -3595,7 +3599,7 @@ span.label {
 }
 @media all and (min-width: 991px) {
   .nav-bar.nav--transparent:not(.nav--scrolled):not(.nav--fixed) .menu > li > a {
-    color: #fff;
+    color: #232323;
   }
   .nav-bar.nav--transparent:not(.nav--scrolled):not(.nav--fixed) .logo-dark {
     display: none;
@@ -6304,6 +6308,8 @@ a:active .card {
   animation: fadeUp 1s ease;
   animation-delay: .5s;
   animation-fill-mode: forwards;
+  color:black !important;
+  margin-bottom: 3.5em !important;
 }
 @keyframes fadeUp {
   0% {
